@@ -3,8 +3,9 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
   plugins: [react()],
+  base: '/pasma-sys/',
   server: {
-    port: 3000, // ou 5173 par défaut
+    port: 3000,
   },
 });
 
